@@ -1,0 +1,40 @@
+.info-me{
+  padding: 200px;
+  text-align: center;
+}
+.info-me img{
+  border-radius: 100%;
+  height: 400px;
+}
+.first{
+  font-family: "Anonymous Pro";
+  font-weight: bold;
+  font-size: 3.3em;
+}
+.name{
+  font-size: 2.0em;
+  font-family: "Monaco";
+ 
+}
+.about{
+  font-size: 2.0em;
+  font-family: "Monaco";
+}
+.social-icons{
+  padding: 30px;
+  font-size: 3.3em;
+}
+.social-icons a{
+  padding: 4px;
+  color: black;
+}
+
+#bondsCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send the canvas to the background */
+}
+
